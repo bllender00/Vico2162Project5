@@ -1,0 +1,33 @@
+.body {
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    padding: 20px 0px 20px 30px;
+}
+
+.body p {
+    font-size: 24px;
+    text-align: center;
+    width: 400px;
+    justify-content: center;
+    margin: 0px 0px 0px 30px;
+    padding: 20px 0px;
+}
+
+label {
+    font-weight: 700;
+}
+
+.type select {
+    float: right;
+    margin-right: 290px;
+}
+
+input[type=checkbox] {
+    margin-left: 50px;
+}
+
+.specify {
+    margin-left: 68px;
+}
