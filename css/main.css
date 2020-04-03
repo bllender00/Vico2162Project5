@@ -1,9 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
 .body {
     width: 520px;
     display: flex;
     flex-direction: column;
-    background-color: lightgrey;
+    background-color: lightskyblue;
     padding: 20px 0px 20px 30px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 50px;
 }
 
 .body p {
@@ -12,20 +19,28 @@
     width: 400px;
     justify-content: center;
     margin: 0px 0px 0px 30px;
-    padding: 20px 0px;
+    padding: 10px 0px;
+    color: darkslateblue;
+    font-weight: 700;
 }
 
 label {
     font-weight: 700;
+    margin: 20px 0px 0px 0px;
 }
 
 .type select {
     float: right;
-    margin-right: 290px;
+    margin-right: 270px;
+    line-height: 20px;
 }
 
 input[type=checkbox] {
-    margin-left: 50px;
+    margin: 0px 0px 15px 50px;
+}
+
+#name {
+    margin-left: 5px;
 }
 
 .specify {
